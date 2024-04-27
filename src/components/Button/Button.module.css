@@ -1,0 +1,40 @@
+.primary_btn {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.primary_btn:hover {
+    background: linear-gradient(165deg, rgb(0, 0, 121), black);
+
+}
+
+.outline_btn {
+    padding: 10px 10px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* min-width: 220px; */
+    font-size: 16px;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.outline_btn:hover{
+    color: white;
+    background: linear-gradient(165deg, rgb(0, 0, 121), white );
+}

@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    /* height: 50px; */
+    /* background-color: blueviolet; */
+    padding: 10px;
+    height: 60px;
+    border: 1px solid black;
+    background: linear-gradient(165deg ,red , orange,lightblue, rgb(0, 0, 147))
+
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    align-items: center;
+    font-weight: bold;
+    margin: 0  200px;
+    font-size: 20px;
+}
+
+.navigation img{
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 40px;
+  box-shadow: 0 0 5px blue;
+}
